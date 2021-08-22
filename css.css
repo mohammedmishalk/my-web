@@ -41,7 +41,7 @@ body {
 }
 
 .progress div {
-    background-color: red
+    background-color: green
 }
 
 .text1 {
@@ -51,4 +51,3 @@ body {
 
 .text2 {
     color: #a5aec0
-}
