@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
-<header class="bg-dark" >
+<header class="bg-dark" id="home" style="position: fixed; width: 100%; z-index: 1;">
     <div class="row">
         <div class=" text-white  col-auto col-sm-6 p-3 px-5">
             <h1>Muhammed mishal k</h1>         
@@ -24,10 +24,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
               <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Skill</a>
+                <a class="nav-link text-white" href="#skill">Skill</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">Services</a>
@@ -37,7 +37,7 @@
               </li>  
               
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact</a>
+                <a class="nav-link text-white" href="#con">Contact</a>
               </li>
 
             </ul>
@@ -48,7 +48,7 @@
 </div>
 </div>
 </header>
-<section>
+<section style="padding-top: 20em;">
     <div class="container">
         <div class="row align-items-center">
             <div class=" col-sm-6 col-auto">
@@ -65,7 +65,7 @@
         </div>
     </div>
 </section>
-<section class="bg-light">
+<section class="bg-light" id="skill">
   <div class="container p-5">
     <h1 class="text-center">Skills</h1>
     <div >
@@ -143,6 +143,7 @@
   </div>
 </section>
 <section class="p-5 bg-light">
+    <h1 style="text-align: center;">Contact Me</h1>
     <div class="contriner">
         <div class="row ">
           <div class="col-md-12">
@@ -179,7 +180,7 @@
         </div>
     </div>
 </section> 
-<footer class="contriner bg-dark"> 
+<footer class="contriner bg-dark" id="con"> 
     <div class="row">
         <div class="col-md-12 text-center text-white">
          <a href="https://github.com/mohammedmishalk"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
