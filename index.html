@@ -1,215 +1,536 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mohammedmishalk</title>
-    <link rel="icon" href="https://lh3.googleusercontent.com/ogw/ADea4I4VnFJ0tWplo7-wFgYwwH4SSYtGPyYtTOuNjxM3_Q=s83-c-mo" type="image/icon type">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="MOHAMMED MISHL K, portfolio, mishalnunu, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to MOHAMMED MISHAL K's Portfolio. MERN Stack Web Developer and Django Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | MOHAMMED MISHAL K</title>
 </head>
-<body>
-<header class="bg-dark" id="home" style="position: fixed; width: 100%; z-index: 1;">
-    <div class="row">
-        <div class=" text-white  col-auto col-sm-6 p-3 px-5">
-            <h1>Muhammed mishal k</h1>         
-    </div>    
-<div class="col-sm-6 col-auto my-auto aling">
-    <nav class="navbar navbar-expand-lg navbar-light ms-auto ">
-        <div class="container-fluid">
-          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#skill">Skill</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Experience</a>
-              </li>  
-              
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#con">Contact</a>
-              </li>
+<body oncontextmenu="return false">
 
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i> MOHAMMED MISHAL K</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
             </ul>
-          
-          </div>
-        </div>
-    </nav>
-</div>
-</div>
+        </nav>
 </header>
-<section style="padding-top: 20em;">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class=" col-sm-6 col-auto">
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQHEUwtQpZb5zA/profile-displayphoto-shrink_200_200/0/1622901591968?e=1635379200&v=beta&t=MebWSy4JCdvx2Ck-IkmIppC-tLHiZBOr8urt1MQweHk" alt="" class="img-fluid rounded-circle width:50 higth:50">
+<!-- navbar ends -->
 
-            </div>
-            <div class=" col-sm-6 col-auto" >
-              <h3> Full Stack Developer <br>
-                Malappuram,Kerala,India
 
-              </h3>
-               <q> <b> History has proven that those who dare to imagine the impossible are the ones who break all human limitations </b></q>
-            </div>
-        </div>
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm MOHAMMED <span>MISHAL K</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/mohammedmishalk/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="https://github.com/mohammedmishalk" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/otsmishal" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="telegram" aria-label="Telegram" href="https://t.me/Otsmishal" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/ots_mishal/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="dev" aria-label="Dev" href="https://dev.to/mohammedmishalk" target="_blank"><i class="fab fa-dev"></i></a></li>
+        </ul>
+      </div>
     </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="hero">
+</div>
 </section>
-<section class="bg-light" id="skill">
-  <div class="container p-5">
-    <h1 class="text-center">Skills</h1>
-    <div >
-      <div class="container mt-5 mb-3">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card p-3 mb-2">
-                    <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row align-items-center">
-                            <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
-                            <div class="ms-2 c-details">
-                                <h6 class="mb-0">HTML5</h6>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="mt-5">
-                        <h3 class="heading">ADVANCE <br> IN HTML5</h3>
-                        <div class="mt-5">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="mt-3"> <span class="text1">Skill level <span class="text2">80%</span></span> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-3 mb-2">
-                    <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row align-items-center">
-                            <div class="icon"><i class="fab fa-html5"></i> </div>
-                            <div class="ms-2 c-details">
-                                <h6 class="mb-0">CSS</h6> 
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="mt-5">
-                        <h3 class="heading">ADVANCE<br >IN CSS</h3>
-                        <div class="mt-5">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="mt-3"> <span class="text1">Skill level<span class="text2">75%</span></span> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card p-3 mb-2">
-                    <div class="d-flex justify-content-between">
-                        <div class="d-flex flex-row align-items-center">
-                            <div class="icon"> <i class="bx bxl-reddit"></i> </div>
-                            <div class="ms-2 c-details">
-                                <h6 class="mb-0">JavaScript</h6> 
-                            </div>
-                        </div>
-                       
-                    </div>
-                    <div class="mt-5">
-                        <h3 class="heading">intermittent <br> in JavaScript</h3>
-                        <div class="mt-5">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="mt-3"> <span class="text1">Skill level <span class="text2"></span>50%</span> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-  </div>
-</section>
-<section class="p-5 bg-light">
-    <h1 style="text-align: center;">Contact Me</h1>
-    <div class="contriner">
-        <div class="row ">
-          <div class="col-md-12">
-            <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Name</label>
-                    <input type="text" class="form-control" id="inputEmail4" placeholder="enter the name">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputplace">Place</label>
-                    <input type="text" class="form-control" id="inputEmail4" placeholder="place">
-                  </div>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">Email</label>
-                  <input type="email" class="form-control"  placeholder="Eamil">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="inputnumber">Mobile No</label>
-                  <input type="tel" class="form-control"  placeholder="Mobile No">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="comment">Comment:</label>
-                    <textarea class="form-control" rows="5" id="comment"></textarea>
-                  </div>
-                </div>
-                
+<!-- hero section ends -->
 
-                </div>
-                </div>
-                <button type="submit" class="btn btn-primary ">submit</button>
-              </form>
-        </div>
-    </div>
-</section> 
-<footer class="contriner bg-dark" id="con"> 
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
     <div class="row">
-        <div class="col-md-12 text-center text-white">
-         <a href="https://github.com/mohammedmishalk"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-              </svg></a>
-             <a href="https://www.instagram.com/ots_mishal/?hl=en"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-              </svg></a>
-            <a href="www.linkedin.com/in/mohammedmishalk" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-              </svg></a>
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="profile photo">
+    </div>
+    <div class="content">
+        <h3>I'm MOHAMMED MISHAL K</h3>
+        <span class="tag">MERN Stack Developer</span>
+        
+        <p>I am a MERN-Stack developer based in Kerala, India. 
+          I am an BCA graduate from Calicut University.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Working for myself to improve my skills.
+          Love to build Full-Stack clones. </p>
+        
+        <div class="box-container">
+            <div class="box">
+              <p><span> age: </span> 23</p>
+              <p><span> phone : </span> +919747322254</p>
+            </div>
+            <div class="box">
+              <p><span> email : </span> mishalnunu@gmail.com</p>
+              <p><span> place : </span> Kerala, India - 676304</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="#" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+          <div class="row" id="skillsContainer">
+
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/html-5--v2.png"/>
+                <span>HTML 5</span>
+              </div>
            
 
-            <p style="padding-top: 30px;">Copyright 2021</p>
+
+            </div>
+            <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/nolan/64/github.png"/>
+                <span>gitHub</span>
+              </div>
+           
+
+      </div>
+
+
+      <div class="bar">
+        <div class="info">
+          <img src="https://img.icons8.com/color/48/000000/css3.png"/>
+          <span>CSS</span>
+        </div>
+     
+
+</div>
+
+
+<div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+    <span>Bootstrap</span>
+  </div>
+
+
+</div>
+
+<div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>
+    <span>Node js</span>
+  </div>
+
+
+</div>
+<div class="bar">
+  <div class="info">
+    <img src="https://img.icons8.com/color/48/000000/django.png"/>
+    <span>Django</span>
+  </div>
+
+
+</div>
+</div>
+<div class="container">
+  <div class="row" id="skillsContainer">
+
+    <div class="bar">
+      <div class="info">
+        <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+        <span>javaScript</span>
+      </div>
+   
+
+
+    </div>
+    <div class="bar">
+      <div class="info">
+        <img src="https://img.icons8.com/color/48/000000/c.png"/>
+        <span>C </span>
+      </div>
+   
+
+</div>
+
+
+<div class="bar">
+<div class="info">
+  <img src="https://img.icons8.com/color/48/000000/python.png"/>
+  <span>python</span>
+</div>
+
+
+</div>
+
+
+<div class="bar">
+<div class="info">
+  <img src="https://img.icons8.com/plasticine/100/000000/react.png"/>
+<span>React js</span>
+</div>
+
+
+</div>
+
+<div class="bar">
+<div class="info">
+  <img src="https://img.icons8.com/color/48/000000/mongodb.png"/>
+<span>mongodb</span>
+</div>
+
+
+</div>
+<div class="bar">
+<div class="info">
+  <img src="https://img.icons8.com/color/48/000000/my-sql.png"/>
+<span>MySql</span>
+</div>
+
+
+</div>
+</div>
+
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./assets/images/educat/college.jpg" alt="collage photo">
+        </div>
+        <div class="content">
+        <h3>Bachelors's in Computer Application</h3>
+        <p>PPTM Arts & Science College | CU</p>
+        <h4>2019-2022 | graduate</h4>
         </div>
     </div>
-
-</footer>
-
-
+    
+   
 
 
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/school.jfif" alt="school photo">
+      </div>
+      <div class="content">
+      <h3>Computer Science </h3>
+      <p>DUHSS PANAKKAD </p>
+      <h4>2017-2019 | Completed</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./assets/images/educat/ideal.jfif" alt="school photos">
+      </div>
+      <div class="content">
+      <h3>SSLC </h3>
+      <p>Ideal gobel school </p>
+      <h4>2016-2017 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+
+
+
+
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+
+    <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.jpg" alt="just pic" />
+      <div class="content">
+        <div class="tag">
+        <h3>hospital management Website</h3>
+        </div>
+        <div class="desc">
+          <p>hospital management  website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/mohammedmishalk/hospital-management" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<div class="viewall">
+  <a href="/projects" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <!-- <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Self Employed</h2>
+        </div>
+        <div class="desc">
+            <h3>MERN Stack Developer</h3>
+            <p> 2021 - present</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Mapstreak Flyseas</h2>
+        </div>
+        <div class="desc">
+            <h3>Web Developer | Internship</h3>
+            <p>June 2021 - Dec 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>The Spark Foundation</h2>
+        </div>
+        <div class="desc">
+            <h3>Website Developer | Internship</h3>
+            <p>May 2021 - June 2021</p>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Brototype</h2>
+        </div>
+        <div class="desc">
+            <h3>MERN Stack</h3>
+            <p>AOCT 2022 - present</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Riss technologies</h2>
+        </div>
+        <div class="desc">
+            <h3>Collage Project | Internship</h3>
+            <p>April 2021 - Dec 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>udemy</h2>
+        </div>
+        <div class="desc">
+            <h3>Web Development| online coures</h3>
+            <p>March 2021 - April 2021</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
   
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="contact pic">
+      </div>
+    <form action="" id="contactForm">
+      <div class="alert">Your message sent</div>
+      <div class="form-group">
+        <div class="field">
+          <input type="text" id="name" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" id="emailid" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" id="tel" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" id="msg" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
 
 
+<!-- footer section starts -->
+<section class="footer">
 
- 
+  <div class="box-container">
+
+      <div class="box">
+          <h3>MOHAMMED MISHAL K Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+919747322254</p>
+          <p> <i class="fas fa-envelope"></i>mishalnunu@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>kerala, India-676304</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/mohammedmishalk/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="https://github.com/mohammedmishalk" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:mishalnunu@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://twitter.com/otsmishal" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="https://t.me/Otsmishal" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/mohammedmishalk/"> MOHAMMED MISHAL K</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
 </body>
 </html>
