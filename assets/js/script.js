@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Mohammed Mishal";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["MERN Stack","frontend development", "backend development", "web designing", "Django devloper"],
+    strings: ["MERN Stack","frontend development", "Backend development", "MEAN Stack"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
